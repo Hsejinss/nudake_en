@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png"/>
+    <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png"/>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- js -->
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/fullpage.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/script.js"></script>
+    <title>NUDAKE</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <!-- banner area -->
+      <section class="banner">
+        <div class="container">
+          <!-- header area -->
+          <header class="header-area">
+            <!-- logo -->
+            <a href="#none" class="header-logo">
+              <img src="./img/nudake_logo_bl.png" alt="" />
+            </a>
+            <!-- hamburger (mobile) -->
+            <a href="#none" id="hamburger">
+              <span></span>
+              <span></span>
+            </a>
+          </header>
+
+          <!-- 메뉴 영역 -->
+          <div class="nav-area">
+            <ul class="nav">
+              <li>
+                <a href="#none">DESSERT</a>
+              </li>
+              <li>
+                <a href="#none">STORIES</a>
+              </li>
+              <li>
+                <a href="#none">ABOUT</a>
+              </li>
+              <li>
+                <a href="#none">INSTAGRAM</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- banner main video area -->
+          <div class="video-box">
+            <video
+              class="banneVideo"
+              src="./video/banner-video.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+              data-keepplaying
+            ></video>
+          </div>
+
+          <!-- banner main txt -->
+          <div class="banner-main-txt">
+            <div class="left-box">
+              <h1>You can imagine all you want</h1>
+              <p class="sub-txt">
+                Nudake is a place where your dessert fantasies come alive. we
+                make the most unique desserts inspired by fashion, art, and your
+                own sweet dreams. Your fantasy is right here.
+              </p>
+            </div>
+            <div class="right-box">
+              <p class="slogan">
+                MAKE NEW FANTASY! <br />
+                DESSERT OF YOUR DREAMS
+              </p>
+              <h1 class="main-slogan">ARTISTIC DESSERT</h1>
+              <span class="year">@2022</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- sec-1 영역 -->
+      <section class="sec-1">
+        <div class="container">
+          <!-- line svg -->
+          <svg
+            class="line"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 800 1200"
+            style="enable-background: new 0 0 800 1200"
+            xml:space="preserve"
+          >
+            <style type="text/css">
+              <!-- .st0 {
+                fill: #ff0000;
+                stroke: #222222;
+              } -->
+            </style>
+            <g>
+              <g>
+                <path
+                  class="st0"
+                  d="M242.15,280.64c9.23,81.94,51.82,158.87,115.13,211.49c15.81,13.14,32.9,24.74,51.01,34.48
+                 c20,10.75,41.1,19.22,61.7,28.7c20.78,9.56,41.35,20.25,58.86,35.14c15.48,13.16,27.89,29.5,36.62,47.85
+                 c17.96,37.77,20.32,81.73,12.63,122.39c-8.5,44.91-29.01,89.56-64.93,118.88c-19.56,15.97-41.76,28.82-63.27,41.94
+                 c-21.77,13.27-43.9,26.03-66.84,37.19c-23.04,11.21-46.89,20.65-71.6,27.48c-25.74,7.12-52.04,11.93-77.99,18.19
+                 c-44.02,10.63-85.45,27.75-122.72,53.7c-34.38,23.94-64.44,54.07-88.06,88.69c-5.96,8.74-11.48,17.76-16.59,27.01
+                 c-0.23,0.42,0.41,0.8,0.65,0.38c42.74-77.35,115.94-136.6,200.61-162.02c25.58-7.68,51.86-12.63,77.87-18.62
+                 c25.47-5.86,50.39-13.21,74.5-23.38c46.05-19.44,89.58-45.96,131.2-73.49c19.6-12.97,37.81-27.69,51.52-46.98
+                 c13.04-18.34,22.58-39.36,29.34-60.77c12-38.02,15.17-79.73,5.71-118.67c-4.53-18.66-12.1-36.64-22.98-52.5
+                 c-11.49-16.74-26.55-30.41-43.55-41.42c-37.65-24.39-81.65-36.61-119.66-60.44c-72.19-45.24-124.91-120.45-143.19-203.63
+                 c-2.29-10.44-4.02-20.98-5.21-31.6C242.85,280.17,242.1,280.16,242.15,280.64L242.15,280.64z"
+                />
+              </g>
+            </g>
+          </svg>
+
+          <div class="head-txt-box">
+            <div class="head">
+              <h1
+                class="question"
+                data-aos="fade-left"
+                data-aos-offset="400"
+                data-aos-duration="400"
+              >
+                ARTISTIC?
+              </h1>
+              <h1
+                class="exclamation"
+                data-aos="fade-left"
+                data-aos-offset="500"
+                data-aos-duration="600"
+              >
+                ARTISTIC!
+              </h1>
+              <div
+                class="head-sub"
+                data-aos="fade-left"
+                data-aos-offset="600"
+                data-aos-duration="600"
+              >
+                <p>
+                  An artistic and unconventional dessert reinterpreted the existing concept and created through
+                  various experiments, Nudake's dessert creates a new fantasy for everyone.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cakes">
+            <!-- peak cake -->
+            <div class="cake-box left">
+              <div class="cake-img">
+                <img src="./img/peak_cake.jpg" alt="" />
+                <div class="cake-img-hover">
+                  <img src="./img/peak_cake_hover.jpg" alt="" />
+                </div>
+              </div>
+
+              <div class="des-txt">
+                <div class="num">01</div>
+                <h2 class="cake-name">PEAK</h2>
+                <p class="cake-des">
+                  The "Peak," reminiscent of Mother Nature, is a centerpiece cake consisting of
+                  layered pastries and soft and deep Matcha cream, and Nudeake's signature cake
+                </p>
+              </div>
+            </div>
+            <!-- column cake -->
+            <div class="cake-box right">
+              <div class="des-txt-pc">
+                <div class="num">02</div>
+                <h2 class="cake-name">COLUMN</h2>
+                <p class="cake-des">
+                  As Nudake's sensuous cake, COLUMN is a cake iced with cream cheese on a sheet of blueberry compote
+                </p>
+              </div>
+              <div class="cake-img">
+                <img src="./img/column_cake.jpg" alt="" />
+                <div class="cake-img-hover">
+                  <img src="./img/column_cake_hover.jpg" alt="" />
+                </div>
+              </div>
+              <div class="des-txt des-txt-m">
+                <div class="num">02</div>
+                <h2 class="cake-name">COLUMN</h2>
+                <p class="cake-des">
+                  As Nudake's sensuous cake, COLUMN is a cake iced with cream cheese on a sheet of blueberry compote
+                </p>
+              </div>
+            </div>
+            <!-- colosseo cake -->
+            <div class="cake-box left">
+              <div class="cake-img colosseo">
+                <img src="./img/colosseo_cake.jpg" alt="" />
+                <div class="cake-img-hover">
+                  <img src="./img/colosseo_cake_hover.jpg" alt="" />
+                </div>
+              </div>
+              <div class="des-txt">
+                <div class="num">03</div>
+                <h2 class="cake-name">COLOSSEO</h2>
+                <p class="cake-des">
+                  Cheesecake contrasted with crispy dark chocolate crust and soft mascarpone filling
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 슬라이드 텍스트 -->
+          <div
+            class="slide-txt t-txt"
+            data-aos="fade-right"
+            data-aos-offset="400"
+            data-aos-duration="500"
+          >
+            <img src="./img/top-txt.png" alt="" />
+          </div>
+          <!-- 슬라이드 텍스트 -->
+          <div
+            class="slide-txt b-txt"
+            data-aos="fade-left"
+            data-aos-offset="400"
+            data-aos-duration="500"
+          >
+            <img src="./img/bottom-txt.png" alt="" />
+          </div>
+
+          <div class="position-img">
+            <div class="bread">
+              <a href="#none">
+                <img src="./img/조각.png" alt="" />
+              </a>
+            </div>
+
+            <div class="half-cake">
+              <a href="#none">
+                <img src="./img/단면-조각.png" alt="" />
+              </a>
+            </div>
+
+            <div class="trophy">
+              <a href="#none">
+                <img src="./img/트로피-조각.png" alt="" />
+              </a>
+            </div>
+
+            <div class="hamburger">
+              <a href="#none">
+                <img src="./img/hamburger-cake조각.png" alt="" />
+              </a>
+            </div>
+
+            <div class="croissant">
+              <a href="#none">
+                <img src="./img/크로와상-조각.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- sec-2 영역 -->
+      <section class="sec-2">
+        <div class="container">
+          <div class="left-content">
+            <div class="product new1 active" id="tab1">
+              <div class="hamburger">
+                <img src="./img/hamburger-cake조각.png" alt="" />
+              </div>
+            </div>
+            <div class="product new2" id="tab2">
+              <div class="hamburger">
+                <img src="./img/hamburger2-조각.png" alt="" />
+              </div>
+            </div>
+            <div class="product new3" id="tab3">
+              <div class="hamburger">
+                <img src="./img/hamburger3-조각.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="right-content">
+            <ul class="new-num">
+              <li
+                data-alt="tab1"
+                data-tab="click1"
+                data-image="./img/hamburger-cake-detail.jpg"
+              >
+                <a href="#none" class="active">01</a>
+              </li>
+              <li
+                data-alt="tab2"
+                data-tab="click2"
+                data-image="./img/hamburger2-detail.jpg"
+              >
+                <a href="#none">02</a>
+              </li>
+              <li
+                data-alt="tab3"
+                data-tab="click3"
+                data-image="./img/hamburger3-detail.jpg"
+              >
+                <a href="#none">03</a>
+              </li>
+              <!-- <li data-alt="tab4" data-tab="click4">
+                            <a href="#none">04</a>
+                        </li> -->
+            </ul>
+
+            <div class="new-content">
+              <div class="head-txt">
+                <h1 class="main-head">NEW</h1>
+                <p class="sub-head">
+                  Meet Nudake's new dessert collection, which was never seen in the previous Nudake space.
+                </p>
+              </div>
+
+              <div class="menu-detail">
+                <div class="inner-txt active" id="click1">
+                  <h2 class="menu-name">ONION PICKLE BURGER CAKE</h2>
+                  <p class="menu-detail">
+                    Onion Pickle Burger Cake is a signature burger cake with onion cream, American cheese, chocolate patty, and pickles
+                  </p>
+                </div>
+
+                <div class="inner-txt" id="click2">
+                  <h2 class="menu-name">PEAK BURGER CAKE</h2>
+                  <p class="menu-detail">
+                    Using the visual and taste of the peak cake, the signature menu of Nudake, a burger cake consisting of thick matcha cream and black buns
+                  </p>
+                </div>
+
+                <div class="inner-txt" id="click3">
+                  <h2 class="menu-name">CORN RAMEN BURGER CAKE</h2>
+                  <p class="menu-detail">
+                    <!-- 라면땅 패티가 들어있는 것처럼 보이기도 하는 -->
+                    Con Ramen Burger Cake is a burger cake with savory corn cream and a pleasant texture of ramen snacks
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- sec-3 영역 -->
+      <section class="sec-3">
+        <div class="container">
+          <div class="l-txt">NUDAKE</div>
+          <div class="r-txt">
+            <img src="./img/sec-3-txt.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- .sec-4 영역 -->
+      <section class="sec-4">
+        <div class="container">
+          <h1 class="stores">STORES</h1>
+
+          <div class="stores-box">
+            <!-- data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-offset="100" -->
+            <div class="box">
+              <div class="stores-img">
+                <img src="./img/누데이크-도산점.jpg" alt="" />
+              </div>
+              <div class="stores-txt">
+                <h3 class="name">HOUSE DOSAN</h3>
+                <p class="location">50, Apgujeong-ro 46-gil, Gangnam-gu, Seoul, Republic of Korea</p>
+                <p class="number">070-4128-2125</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="stores-img">
+                <img src="./img/누데이크-하남점.jpg" alt="" />
+              </div>
+              <div class="stores-txt">
+                <h3 class="name">STAFILED HANAM</h3>
+                <p class="location">
+                  750 Misa-daero, Hanam-si, Gyeonggi-do, 1st floor of Starfield
+                </p>
+                <p class="number">031-8072-8498</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="stores-img">
+                <img src="./img/누데이크-동탄점.jpg" alt="" />
+              </div>
+              <div class="stores-txt">
+                <h3 class="name">LOTTE DONGTAN</h3>
+                <p class="location">
+                  967-157 in Osan-dong, Hwaseong-si, Gyeonggi-do
+                </p>
+                <p class="number">031-8036-3636</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer 영역 -->
+      <section class="footer">
+        <div class="container">
+          <span class="copyright">© NUDAKE</span>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

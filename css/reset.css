@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* 외부폰트 연결 */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* 내부 폰트 연결 */
+@font-face {
+  font-family: "felixTitling";
+  src: url(../font/felixTitling/FelixTitling.ttf);
+}
+@font-face {
+  font-family: "US_Plain_Bold";
+  src: url(../font/US_Plain_Bold/US_Plain_Bold_Bold.ttf);
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url(../font/Pretendard/Pretendard-Bold.otf);
+  src: url(../font/Pretendard/Pretendard-SemiBold.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url(../font/Pretendard/Pretendard-Medium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url(../font/Pretendard/Pretendard-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url(../font/Pretendard/Pretendard-Light.otf);
+  src: url(../font/Pretendard/Pretendard-Thin.otf);
+  font-weight: 300;
+}
+
+/* 전체 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+ol,
+li,
+ul {
+  list-style: none;
+}
+img,
+svg,
+video,
+iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  font-family: "Pretendard";
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+/* font-family: 'Lato', sans-serif; */
